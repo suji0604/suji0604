@@ -1,0 +1,51 @@
+.header {
+  height: 60px;
+  background: #007BFF;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 500;
+  overflow: hidden;
+}
+
+
+.logo {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+nav a,
+nav button {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+nav a.login-button {
+  background: #fff;
+  color: #007BFF;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+nav button.logout-button {
+  background: #fff;
+  color: #007BFF;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
